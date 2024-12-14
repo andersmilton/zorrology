@@ -1,7 +1,11 @@
 # Zorrology
 Dumb dual clock port for the Amiga Zorro II expansion bus.
 
+<img src="https://github.com/andersmilton/zorrology/blob/main/images/Zorrology%20line%20drawing.png" alt="Zorrology line drawing" />
+
 ## About
+<img src="https://github.com/andersmilton/zorrology/blob/main/images/Zorrology%20Rev%201%20front.jpg" alt="Zorrology Rev 1 front" width="33%" align="right" />
+<img src="https://github.com/andersmilton/zorrology/blob/main/images/Zorrology%20Rev%201%20back.jpg" alt="Zorrology Rev 1 back" width="33%" align="right"/>
 Zorrology is an expansion for the Amiga Zorro II expansion bus, providing two clock ports. The clock port is an expansion port originally only found in the Amiga 1200, and originally mainly meant to be used for a realtime clock, but as useful expansions has been developed, these kinds of ports has been added to various other Amiga models. Be aware that a realtime clock cannot be added to an Amiga using the clockports provided by Zorrology. Isn’t it ironic, don’t you think?
 
 ## Hardware configuration
