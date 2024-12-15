@@ -258,6 +258,5 @@ A16 | A17 | A18 | A19 | A20 | A21 | A22 | A23 | Base address | Clockport 1 | Clo
  L  |  H  |  H  |  H  |  H  |  H  |  H  |  H  |   0xFE0000   |  0xFE0001   |  0xFE4001
  H  |  H  |  H  |  H  |  H  |  H  |  H  |  H  |   0xFF0000   |  0xFF0001   |  0xFF4001
 
-* Address of the A1200 clock port
-
+\* Address of the A1200 clock port
 ** Default base address of Zorrology
