@@ -1,1028 +1,262 @@
 # Base address configuration
-<tr>
-	<th>A16</th><th>A17</th><th>A18</th><th>A19</th><th>A20</th><th>A21</th><th>A22</th><th>A23</th><th>Base address</th><th>Clockport 1</th><th>Clockport 2</th>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td>
-	<td>0x000000</td><td>000001</td><td>0x004001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td>
-	<td>0x010000</td><td>010001</td><td>0x014001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td>
-	<td>0x020000</td><td>020001</td><td>0x024001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td>
-	<td>0x030000</td><td>030001</td><td>0x034001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td>
-	<td>0x040000</td><td>040001</td><td>0x044001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td>
-	<td>0x050000</td><td>050001</td><td>0x054001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td>
-	<td>0x060000</td><td>060001</td><td>0x064001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td>
-	<td>0x070000</td><td>070001</td><td>0x074001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td>
-	<td>0x080000</td><td>080001</td><td>0x084001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td>
-	<td>0x090000</td><td>090001</td><td>0x094001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td>
-	<td>0x0A0000</td><td>0A0001</td><td>0x0A4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td>
-	<td>0x0B0000</td><td>0B0001</td><td>0x0B4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td>
-	<td>0x0C0000</td><td>0C0001</td><td>0x0C4001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td>
-	<td>0x0D0000</td><td>0D0001</td><td>0x0D4001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td>
-	<td>0x0E0000</td><td>0E0001</td><td>0x0E4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td>
-	<td>0x0F0000</td><td>0F0001</td><td>0x0F4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td>
-	<td>0x100000</td><td>100001</td><td>0x104001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td>
-	<td>0x110000</td><td>110001</td><td>0x114001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td>
-	<td>0x120000</td><td>120001</td><td>0x124001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td>
-	<td>0x130000</td><td>130001</td><td>0x134001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td>
-	<td>0x140000</td><td>140001</td><td>0x144001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td>
-	<td>0x150000</td><td>150001</td><td>0x154001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td>
-	<td>0x160000</td><td>160001</td><td>0x164001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td>
-	<td>0x170000</td><td>170001</td><td>0x174001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td>
-	<td>0x180000</td><td>180001</td><td>0x184001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td>
-	<td>0x190000</td><td>190001</td><td>0x194001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td>
-	<td>0x1A0000</td><td>1A0001</td><td>0x1A4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td>
-	<td>0x1B0000</td><td>1B0001</td><td>0x1B4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td>
-	<td>0x1C0000</td><td>1C0001</td><td>0x1C4001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td>
-	<td>0x1D0000</td><td>1D0001</td><td>0x1D4001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td>
-	<td>0x1E0000</td><td>1E0001</td><td>0x1E4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td>
-	<td>0x1F0000</td><td>1F0001</td><td>0x1F4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td>
-	<td>0x200000</td><td>200001</td><td>0x204001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td>
-	<td>0x210000</td><td>210001</td><td>0x214001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td>
-	<td>0x220000</td><td>220001</td><td>0x224001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td>
-	<td>0x230000</td><td>230001</td><td>0x234001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td>
-	<td>0x240000</td><td>240001</td><td>0x244001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td>
-	<td>0x250000</td><td>250001</td><td>0x254001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td>
-	<td>0x260000</td><td>260001</td><td>0x264001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td>
-	<td>0x270000</td><td>270001</td><td>0x274001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td>
-	<td>0x280000</td><td>280001</td><td>0x284001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td>
-	<td>0x290000</td><td>290001</td><td>0x294001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td>
-	<td>0x2A0000</td><td>2A0001</td><td>0x2A4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td>
-	<td>0x2B0000</td><td>2B0001</td><td>0x2B4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td>
-	<td>0x2C0000</td><td>2C0001</td><td>0x2C4001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td>
-	<td>0x2D0000</td><td>2D0001</td><td>0x2D4001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td>
-	<td>0x2E0000</td><td>2E0001</td><td>0x2E4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td>
-	<td>0x2F0000</td><td>2F0001</td><td>0x2F4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td>
-	<td>0x300000</td><td>300001</td><td>0x304001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td>
-	<td>0x310000</td><td>310001</td><td>0x314001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td>
-	<td>0x320000</td><td>320001</td><td>0x324001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td>
-	<td>0x330000</td><td>330001</td><td>0x334001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td>
-	<td>0x340000</td><td>340001</td><td>0x344001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td>
-	<td>0x350000</td><td>350001</td><td>0x354001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td>
-	<td>0x360000</td><td>360001</td><td>0x364001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td>
-	<td>0x370000</td><td>370001</td><td>0x374001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td>
-	<td>0x380000</td><td>380001</td><td>0x384001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td>
-	<td>0x390000</td><td>390001</td><td>0x394001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td>
-	<td>0x3A0000</td><td>3A0001</td><td>0x3A4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td>
-	<td>0x3B0000</td><td>3B0001</td><td>0x3B4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td>
-	<td>0x3C0000</td><td>3C0001</td><td>0x3C4001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td>
-	<td>0x3D0000</td><td>3D0001</td><td>0x3D4001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td>
-	<td>0x3E0000</td><td>3E0001</td><td>0x3E4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td>
-	<td>0x3F0000</td><td>3F0001</td><td>0x3F4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td>
-	<td>0x400000</td><td>400001</td><td>0x404001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td>
-	<td>0x410000</td><td>410001</td><td>0x414001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td>
-	<td>0x420000</td><td>420001</td><td>0x424001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td>
-	<td>0x430000</td><td>430001</td><td>0x434001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td>
-	<td>0x440000</td><td>440001</td><td>0x444001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td>
-	<td>0x450000</td><td>450001</td><td>0x454001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td>
-	<td>0x460000</td><td>460001</td><td>0x464001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td>
-	<td>0x470000</td><td>470001</td><td>0x474001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td>
-	<td>0x480000</td><td>480001</td><td>0x484001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td>
-	<td>0x490000</td><td>490001</td><td>0x494001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td>
-	<td>0x4A0000</td><td>4A0001</td><td>0x4A4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td>
-	<td>0x4B0000</td><td>4B0001</td><td>0x4B4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td>
-	<td>0x4C0000</td><td>4C0001</td><td>0x4C4001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td>
-	<td>0x4D0000</td><td>4D0001</td><td>0x4D4001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td>
-	<td>0x4E0000</td><td>4E0001</td><td>0x4E4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td>
-	<td>0x4F0000</td><td>4F0001</td><td>0x4F4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td>
-	<td>0x500000</td><td>500001</td><td>0x504001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td>
-	<td>0x510000</td><td>510001</td><td>0x514001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td>
-	<td>0x520000</td><td>520001</td><td>0x524001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td>
-	<td>0x530000</td><td>530001</td><td>0x534001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td>
-	<td>0x540000</td><td>540001</td><td>0x544001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td>
-	<td>0x550000</td><td>550001</td><td>0x554001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td>
-	<td>0x560000</td><td>560001</td><td>0x564001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td>
-	<td>0x570000</td><td>570001</td><td>0x574001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td>
-	<td>0x580000</td><td>580001</td><td>0x584001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td>
-	<td>0x590000</td><td>590001</td><td>0x594001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td>
-	<td>0x5A0000</td><td>5A0001</td><td>0x5A4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td>
-	<td>0x5B0000</td><td>5B0001</td><td>0x5B4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td>
-	<td>0x5C0000</td><td>5C0001</td><td>0x5C4001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td>
-	<td>0x5D0000</td><td>5D0001</td><td>0x5D4001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td>
-	<td>0x5E0000</td><td>5E0001</td><td>0x5E4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td>
-	<td>0x5F0000</td><td>5F0001</td><td>0x5F4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td>
-	<td>0x600000</td><td>600001</td><td>0x604001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td>
-	<td>0x610000</td><td>610001</td><td>0x614001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td>
-	<td>0x620000</td><td>620001</td><td>0x624001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td>
-	<td>0x630000</td><td>630001</td><td>0x634001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td>
-	<td>0x640000</td><td>640001</td><td>0x644001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td>
-	<td>0x650000</td><td>650001</td><td>0x654001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td>
-	<td>0x660000</td><td>660001</td><td>0x664001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td>
-	<td>0x670000</td><td>670001</td><td>0x674001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td>
-	<td>0x680000</td><td>680001</td><td>0x684001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td>
-	<td>0x690000</td><td>690001</td><td>0x694001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td>
-	<td>0x6A0000</td><td>6A0001</td><td>0x6A4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td>
-	<td>0x6B0000</td><td>6B0001</td><td>0x6B4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td>
-	<td>0x6C0000</td><td>6C0001</td><td>0x6C4001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td>
-	<td>0x6D0000</td><td>6D0001</td><td>0x6D4001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td>
-	<td>0x6E0000</td><td>6E0001</td><td>0x6E4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td>
-	<td>0x6F0000</td><td>6F0001</td><td>0x6F4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td>
-	<td>0x700000</td><td>700001</td><td>0x704001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td>
-	<td>0x710000</td><td>710001</td><td>0x714001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td>
-	<td>0x720000</td><td>720001</td><td>0x724001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td>
-	<td>0x730000</td><td>730001</td><td>0x734001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td>
-	<td>0x740000</td><td>740001</td><td>0x744001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td>
-	<td>0x750000</td><td>750001</td><td>0x754001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td>
-	<td>0x760000</td><td>760001</td><td>0x764001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td>
-	<td>0x770000</td><td>770001</td><td>0x774001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td>
-	<td>0x780000</td><td>780001</td><td>0x784001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td>
-	<td>0x790000</td><td>790001</td><td>0x794001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td>
-	<td>0x7A0000</td><td>7A0001</td><td>0x7A4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td>
-	<td>0x7B0000</td><td>7B0001</td><td>0x7B4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td>
-	<td>0x7C0000</td><td>7C0001</td><td>0x7C4001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td>
-	<td>0x7D0000</td><td>7D0001</td><td>0x7D4001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td>
-	<td>0x7E0000</td><td>7E0001</td><td>0x7E4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td>
-	<td>0x7F0000</td><td>7F0001</td><td>0x7F4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td>
-	<td>0x800000</td><td>800001</td><td>0x804001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td>
-	<td>0x810000</td><td>810001</td><td>0x814001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td>
-	<td>0x820000</td><td>820001</td><td>0x824001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td>
-	<td>0x830000</td><td>830001</td><td>0x834001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td>
-	<td>0x840000</td><td>840001</td><td>0x844001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td>
-	<td>0x850000</td><td>850001</td><td>0x854001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td>
-	<td>0x860000</td><td>860001</td><td>0x864001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td>
-	<td>0x870000</td><td>870001</td><td>0x874001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td>
-	<td>0x880000</td><td>880001</td><td>0x884001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td>
-	<td>0x890000</td><td>890001</td><td>0x894001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td>
-	<td>0x8A0000</td><td>8A0001</td><td>0x8A4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td>
-	<td>0x8B0000</td><td>8B0001</td><td>0x8B4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td>
-	<td>0x8C0000</td><td>8C0001</td><td>0x8C4001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td>
-	<td>0x8D0000</td><td>8D0001</td><td>0x8D4001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td>
-	<td>0x8E0000</td><td>8E0001</td><td>0x8E4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td>
-	<td>0x8F0000</td><td>8F0001</td><td>0x8F4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td>
-	<td>0x900000</td><td>900001</td><td>0x904001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td>
-	<td>0x910000</td><td>910001</td><td>0x914001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td>
-	<td>0x920000</td><td>920001</td><td>0x924001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td>
-	<td>0x930000</td><td>930001</td><td>0x934001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td>
-	<td>0x940000</td><td>940001</td><td>0x944001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td>
-	<td>0x950000</td><td>950001</td><td>0x954001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td>
-	<td>0x960000</td><td>960001</td><td>0x964001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td>
-	<td>0x970000</td><td>970001</td><td>0x974001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td>
-	<td>0x980000</td><td>980001</td><td>0x984001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td>
-	<td>0x990000</td><td>990001</td><td>0x994001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td>
-	<td>0x9A0000</td><td>9A0001</td><td>0x9A4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td>
-	<td>0x9B0000</td><td>9B0001</td><td>0x9B4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td>
-	<td>0x9C0000</td><td>9C0001</td><td>0x9C4001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td>
-	<td>0x9D0000</td><td>9D0001</td><td>0x9D4001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td>
-	<td>0x9E0000</td><td>9E0001</td><td>0x9E4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td>
-	<td>0x9F0000</td><td>9F0001</td><td>0x9F4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td>
-	<td>0xA00000</td><td>A00001</td><td>0xA04001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td>
-	<td>0xA10000</td><td>A10001</td><td>0xA14001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td>
-	<td>0xA20000</td><td>A20001</td><td>0xA24001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td>
-	<td>0xA30000</td><td>A30001</td><td>0xA34001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td>
-	<td>0xA40000</td><td>A40001</td><td>0xA44001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td>
-	<td>0xA50000</td><td>A50001</td><td>0xA54001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td>
-	<td>0xA60000</td><td>A60001</td><td>0xA64001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td>
-	<td>0xA70000</td><td>A70001</td><td>0xA74001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td>
-	<td>0xA80000</td><td>A80001</td><td>0xA84001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td>
-	<td>0xA90000</td><td>A90001</td><td>0xA94001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td>
-	<td>0xAA0000</td><td>AA0001</td><td>0xAA4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td>
-	<td>0xAB0000</td><td>AB0001</td><td>0xAB4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td>
-	<td>0xAC0000</td><td>AC0001</td><td>0xAC4001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td>
-	<td>0xAD0000</td><td>AD0001</td><td>0xAD4001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td>
-	<td>0xAE0000</td><td>AE0001</td><td>0xAE4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td>
-	<td>0xAF0000</td><td>AF0001</td><td>0xAF4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td>
-	<td>0xB00000</td><td>B00001</td><td>0xB04001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td>
-	<td>0xB10000</td><td>B10001</td><td>0xB14001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td>
-	<td>0xB20000</td><td>B20001</td><td>0xB24001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td>
-	<td>0xB30000</td><td>B30001</td><td>0xB34001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td>
-	<td>0xB40000</td><td>B40001</td><td>0xB44001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td>
-	<td>0xB50000</td><td>B50001</td><td>0xB54001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td>
-	<td>0xB60000</td><td>B60001</td><td>0xB64001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td>
-	<td>0xB70000</td><td>B70001</td><td>0xB74001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td>
-	<td>0xB80000</td><td>B80001</td><td>0xB84001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td>
-	<td>0xB90000</td><td>B90001</td><td>0xB94001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td>
-	<td>0xBA0000</td><td>BA0001</td><td>0xBA4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td>
-	<td>0xBB0000</td><td>BB0001</td><td>0xBB4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td>
-	<td>0xBC0000</td><td>BC0001</td><td>0xBC4001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td>
-	<td>0xBD0000</td><td>BD0001</td><td>0xBD4001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td>
-	<td>0xBE0000</td><td>BE0001</td><td>0xBE4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td>
-	<td>0xBF0000</td><td>BF0001</td><td>0xBF4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td>
-	<td>0xC00000</td><td>C00001</td><td>0xC04001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td>
-	<td>0xC10000</td><td>C10001</td><td>0xC14001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td>
-	<td>0xC20000</td><td>C20001</td><td>0xC24001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td>
-	<td>0xC30000</td><td>C30001</td><td>0xC34001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td>
-	<td>0xC40000</td><td>C40001</td><td>0xC44001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td>
-	<td>0xC50000</td><td>C50001</td><td>0xC54001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td>
-	<td>0xC60000</td><td>C60001</td><td>0xC64001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td>
-	<td>0xC70000</td><td>C70001</td><td>0xC74001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td>
-	<td>0xC80000</td><td>C80001</td><td>0xC84001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td>
-	<td>0xC90000</td><td>C90001</td><td>0xC94001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td>
-	<td>0xCA0000</td><td>CA0001</td><td>0xCA4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td>
-	<td>0xCB0000</td><td>CB0001</td><td>0xCB4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td>
-	<td>0xCC0000</td><td>CC0001</td><td>0xCC4001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td>
-	<td>0xCD0000</td><td>CD0001</td><td>0xCD4001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td>
-	<td>0xCE0000</td><td>CE0001</td><td>0xCE4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td>
-	<td>0xCF0000</td><td>CF0001</td><td>0xCF4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td>
-	<td>0xD00000</td><td>D00001</td><td>0xD04001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td>
-	<td>0xD10000</td><td>D10001</td><td>0xD14001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td>
-	<td>0xD20000</td><td>D20001</td><td>0xD24001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td>
-	<td>0xD30000</td><td>D30001</td><td>0xD34001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td>
-	<td>0xD40000</td><td>D40001</td><td>0xD44001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td>
-	<td>0xD50000</td><td>D50001</td><td>0xD54001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td>
-	<td>0xD60000</td><td>D60001</td><td>0xD64001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td>
-	<td>0xD70000</td><td>D70001</td><td>0xD74001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td>
-	<td>0xD80000</td><td>D80001</td><td>0xD84001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td>
-	<td>0xD90000</td><td>D90001</td><td>0xD94001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td>
-	<td>0xDA0000</td><td>DA0001</td><td>0xDA4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td>
-	<td>0xDB0000</td><td>DB0001</td><td>0xDB4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td>
-	<td>0xDC0000</td><td>DC0001</td><td>0xDC4001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td>
-	<td>0xDD0000</td><td>DD0001</td><td>0xDD4001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td>
-	<td>0xDE0000</td><td>DE0001</td><td>0xDE4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td>
-	<td>0xDF0000</td><td>DF0001</td><td>0xDF4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td>
-	<td>0xE00000</td><td>E00001</td><td>0xE04001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td>
-	<td>0xE10000</td><td>E10001</td><td>0xE14001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td>
-	<td>0xE20000</td><td>E20001</td><td>0xE24001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td>
-	<td>0xE30000</td><td>E30001</td><td>0xE34001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td>
-	<td>0xE40000</td><td>E40001</td><td>0xE44001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td>
-	<td>0xE50000</td><td>E50001</td><td>0xE54001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td>
-	<td>0xE60000</td><td>E60001</td><td>0xE64001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td>
-	<td>0xE70000</td><td>E70001</td><td>0xE74001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td>
-	<td>0xE80000</td><td>E80001</td><td>0xE84001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td>
-	<td>0xE90000</td><td>E90001</td><td>0xE94001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td>
-	<td>0xEA0000</td><td>EA0001</td><td>0xEA4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td>
-	<td>0xEB0000</td><td>EB0001</td><td>0xEB4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td>
-	<td>0xEC0000</td><td>EC0001</td><td>0xEC4001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td>
-	<td>0xED0000</td><td>ED0001</td><td>0xED4001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td>
-	<td>0xEE0000</td><td>EE0001</td><td>0xEE4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td>
-	<td>0xEF0000</td><td>EF0001</td><td>0xEF4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td>
-	<td>0xF00000</td><td>F00001</td><td>0xF04001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td>
-	<td>0xF10000</td><td>F10001</td><td>0xF14001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td>
-	<td>0xF20000</td><td>F20001</td><td>0xF24001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td>
-	<td>0xF30000</td><td>F30001</td><td>0xF34001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td>
-	<td>0xF40000</td><td>F40001</td><td>0xF44001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td>
-	<td>0xF50000</td><td>F50001</td><td>0xF54001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td>
-	<td>0xF60000</td><td>F60001</td><td>0xF64001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td>
-	<td>0xF70000</td><td>F70001</td><td>0xF74001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td>
-	<td>0xF80000</td><td>F80001</td><td>0xF84001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td>
-	<td>0xF90000</td><td>F90001</td><td>0xF94001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td>
-	<td>0xFA0000</td><td>FA0001</td><td>0xFA4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td>
-	<td>0xFB0000</td><td>FB0001</td><td>0xFB4001</td>
-</tr>
-<tr>
-	<td>L</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td>
-	<td>0xFC0000</td><td>FC0001</td><td>0xFC4001</td>
-</tr>
-<tr>
-	<td>H</td><td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td>
-	<td>0xFD0000</td><td>FD0001</td><td>0xFD4001</td>
-</tr>
-<tr>
-	<td>L</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td>
-	<td>0xFE0000</td><td>FE0001</td><td>0xFE4001</td>
-</tr>
-<tr>
-	<td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td><td>H</td>
-	<td>0xFF0000</td><td>FF0001</td><td>0xFF4001</td>
-</tr>
+A16 | A17 | A18 | A19 | A20 | A21 | A22 | A23 | Base address | Clockport 1 | Clockport 2
+----|-----|-----|-----|-----|-----|-----|-----|--------------|-------------|------------
+ L  |  L  |  L  |  L  |  L  |  L  |  L  |  L  |   0x000000   |  0x000001   |  0x004001
+ H  |  L  |  L  |  L  |  L  |  L  |  L  |  L  |   0x010000   |  0x010001   |  0x014001
+ L  |  H  |  L  |  L  |  L  |  L  |  L  |  L  |   0x020000   |  0x020001   |  0x024001
+ H  |  H  |  L  |  L  |  L  |  L  |  L  |  L  |   0x030000   |  0x030001   |  0x034001
+ L  |  L  |  H  |  L  |  L  |  L  |  L  |  L  |   0x040000   |  0x040001   |  0x044001
+ H  |  L  |  H  |  L  |  L  |  L  |  L  |  L  |   0x050000   |  0x050001   |  0x054001
+ L  |  H  |  H  |  L  |  L  |  L  |  L  |  L  |   0x060000   |  0x060001   |  0x064001
+ H  |  H  |  H  |  L  |  L  |  L  |  L  |  L  |   0x070000   |  0x070001   |  0x074001
+ L  |  L  |  L  |  H  |  L  |  L  |  L  |  L  |   0x080000   |  0x080001   |  0x084001
+ H  |  L  |  L  |  H  |  L  |  L  |  L  |  L  |   0x090000   |  0x090001   |  0x094001
+ L  |  H  |  L  |  H  |  L  |  L  |  L  |  L  |   0x0A0000   |  0x0A0001   |  0x0A4001
+ H  |  H  |  L  |  H  |  L  |  L  |  L  |  L  |   0x0B0000   |  0x0B0001   |  0x0B4001
+ L  |  L  |  H  |  H  |  L  |  L  |  L  |  L  |   0x0C0000   |  0x0C0001   |  0x0C4001
+ H  |  L  |  H  |  H  |  L  |  L  |  L  |  L  |   0x0D0000   |  0x0D0001   |  0x0D4001
+ L  |  H  |  H  |  H  |  L  |  L  |  L  |  L  |   0x0E0000   |  0x0E0001   |  0x0E4001
+ H  |  H  |  H  |  H  |  L  |  L  |  L  |  L  |   0x0F0000   |  0x0F0001   |  0x0F4001
+ L  |  L  |  L  |  L  |  H  |  L  |  L  |  L  |   0x100000   |  0x100001   |  0x104001
+ H  |  L  |  L  |  L  |  H  |  L  |  L  |  L  |   0x110000   |  0x110001   |  0x114001
+ L  |  H  |  L  |  L  |  H  |  L  |  L  |  L  |   0x120000   |  0x120001   |  0x124001
+ H  |  H  |  L  |  L  |  H  |  L  |  L  |  L  |   0x130000   |  0x130001   |  0x134001
+ L  |  L  |  H  |  L  |  H  |  L  |  L  |  L  |   0x140000   |  0x140001   |  0x144001
+ H  |  L  |  H  |  L  |  H  |  L  |  L  |  L  |   0x150000   |  0x150001   |  0x154001
+ L  |  H  |  H  |  L  |  H  |  L  |  L  |  L  |   0x160000   |  0x160001   |  0x164001
+ H  |  H  |  H  |  L  |  H  |  L  |  L  |  L  |   0x170000   |  0x170001   |  0x174001
+ L  |  L  |  L  |  H  |  H  |  L  |  L  |  L  |   0x180000   |  0x180001   |  0x184001
+ H  |  L  |  L  |  H  |  H  |  L  |  L  |  L  |   0x190000   |  0x190001   |  0x194001
+ L  |  H  |  L  |  H  |  H  |  L  |  L  |  L  |   0x1A0000   |  0x1A0001   |  0x1A4001
+ H  |  H  |  L  |  H  |  H  |  L  |  L  |  L  |   0x1B0000   |  0x1B0001   |  0x1B4001
+ L  |  L  |  H  |  H  |  H  |  L  |  L  |  L  |   0x1C0000   |  0x1C0001   |  0x1C4001
+ H  |  L  |  H  |  H  |  H  |  L  |  L  |  L  |   0x1D0000   |  0x1D0001   |  0x1D4001
+ L  |  H  |  H  |  H  |  H  |  L  |  L  |  L  |   0x1E0000   |  0x1E0001   |  0x1E4001
+ H  |  H  |  H  |  H  |  H  |  L  |  L  |  L  |   0x1F0000   |  0x1F0001   |  0x1F4001
+ L  |  L  |  L  |  L  |  L  |  H  |  L  |  L  |   0x200000   |  0x200001   |  0x204001
+ H  |  L  |  L  |  L  |  L  |  H  |  L  |  L  |   0x210000   |  0x210001   |  0x214001
+ L  |  H  |  L  |  L  |  L  |  H  |  L  |  L  |   0x220000   |  0x220001   |  0x224001
+ H  |  H  |  L  |  L  |  L  |  H  |  L  |  L  |   0x230000   |  0x230001   |  0x234001
+ L  |  L  |  H  |  L  |  L  |  H  |  L  |  L  |   0x240000   |  0x240001   |  0x244001
+ H  |  L  |  H  |  L  |  L  |  H  |  L  |  L  |   0x250000   |  0x250001   |  0x254001
+ L  |  H  |  H  |  L  |  L  |  H  |  L  |  L  |   0x260000   |  0x260001   |  0x264001
+ H  |  H  |  H  |  L  |  L  |  H  |  L  |  L  |   0x270000   |  0x270001   |  0x274001
+ L  |  L  |  L  |  H  |  L  |  H  |  L  |  L  |   0x280000   |  0x280001   |  0x284001
+ H  |  L  |  L  |  H  |  L  |  H  |  L  |  L  |   0x290000   |  0x290001   |  0x294001
+ L  |  H  |  L  |  H  |  L  |  H  |  L  |  L  |   0x2A0000   |  0x2A0001   |  0x2A4001
+ H  |  H  |  L  |  H  |  L  |  H  |  L  |  L  |   0x2B0000   |  0x2B0001   |  0x2B4001
+ L  |  L  |  H  |  H  |  L  |  H  |  L  |  L  |   0x2C0000   |  0x2C0001   |  0x2C4001
+ H  |  L  |  H  |  H  |  L  |  H  |  L  |  L  |   0x2D0000   |  0x2D0001   |  0x2D4001
+ L  |  H  |  H  |  H  |  L  |  H  |  L  |  L  |   0x2E0000   |  0x2E0001   |  0x2E4001
+ H  |  H  |  H  |  H  |  L  |  H  |  L  |  L  |   0x2F0000   |  0x2F0001   |  0x2F4001
+ L  |  L  |  L  |  L  |  H  |  H  |  L  |  L  |   0x300000   |  0x300001   |  0x304001
+ H  |  L  |  L  |  L  |  H  |  H  |  L  |  L  |   0x310000   |  0x310001   |  0x314001
+ L  |  H  |  L  |  L  |  H  |  H  |  L  |  L  |   0x320000   |  0x320001   |  0x324001
+ H  |  H  |  L  |  L  |  H  |  H  |  L  |  L  |   0x330000   |  0x330001   |  0x334001
+ L  |  L  |  H  |  L  |  H  |  H  |  L  |  L  |   0x340000   |  0x340001   |  0x344001
+ H  |  L  |  H  |  L  |  H  |  H  |  L  |  L  |   0x350000   |  0x350001   |  0x354001
+ L  |  H  |  H  |  L  |  H  |  H  |  L  |  L  |   0x360000   |  0x360001   |  0x364001
+ H  |  H  |  H  |  L  |  H  |  H  |  L  |  L  |   0x370000   |  0x370001   |  0x374001
+ L  |  L  |  L  |  H  |  H  |  H  |  L  |  L  |   0x380000   |  0x380001   |  0x384001
+ H  |  L  |  L  |  H  |  H  |  H  |  L  |  L  |   0x390000   |  0x390001   |  0x394001
+ L  |  H  |  L  |  H  |  H  |  H  |  L  |  L  |   0x3A0000   |  0x3A0001   |  0x3A4001
+ H  |  H  |  L  |  H  |  H  |  H  |  L  |  L  |   0x3B0000   |  0x3B0001   |  0x3B4001
+ L  |  L  |  H  |  H  |  H  |  H  |  L  |  L  |   0x3C0000   |  0x3C0001   |  0x3C4001
+ H  |  L  |  H  |  H  |  H  |  H  |  L  |  L  |   0x3D0000   |  0x3D0001   |  0x3D4001
+ L  |  H  |  H  |  H  |  H  |  H  |  L  |  L  |   0x3E0000   |  0x3E0001   |  0x3E4001
+ H  |  H  |  H  |  H  |  H  |  H  |  L  |  L  |   0x3F0000   |  0x3F0001   |  0x3F4001
+ L  |  L  |  L  |  L  |  L  |  L  |  H  |  L  |   0x400000   |  0x400001   |  0x404001
+ H  |  L  |  L  |  L  |  L  |  L  |  H  |  L  |   0x410000   |  0x410001   |  0x414001
+ L  |  H  |  L  |  L  |  L  |  L  |  H  |  L  |   0x420000   |  0x420001   |  0x424001
+ H  |  H  |  L  |  L  |  L  |  L  |  H  |  L  |   0x430000   |  0x430001   |  0x434001
+ L  |  L  |  H  |  L  |  L  |  L  |  H  |  L  |   0x440000   |  0x440001   |  0x444001
+ H  |  L  |  H  |  L  |  L  |  L  |  H  |  L  |   0x450000   |  0x450001   |  0x454001
+ L  |  H  |  H  |  L  |  L  |  L  |  H  |  L  |   0x460000   |  0x460001   |  0x464001
+ H  |  H  |  H  |  L  |  L  |  L  |  H  |  L  |   0x470000   |  0x470001   |  0x474001
+ L  |  L  |  L  |  H  |  L  |  L  |  H  |  L  |   0x480000   |  0x480001   |  0x484001
+ H  |  L  |  L  |  H  |  L  |  L  |  H  |  L  |   0x490000   |  0x490001   |  0x494001
+ L  |  H  |  L  |  H  |  L  |  L  |  H  |  L  |   0x4A0000   |  0x4A0001   |  0x4A4001
+ H  |  H  |  L  |  H  |  L  |  L  |  H  |  L  |   0x4B0000   |  0x4B0001   |  0x4B4001
+ L  |  L  |  H  |  H  |  L  |  L  |  H  |  L  |   0x4C0000   |  0x4C0001   |  0x4C4001
+ H  |  L  |  H  |  H  |  L  |  L  |  H  |  L  |   0x4D0000   |  0x4D0001   |  0x4D4001
+ L  |  H  |  H  |  H  |  L  |  L  |  H  |  L  |   0x4E0000   |  0x4E0001   |  0x4E4001
+ H  |  H  |  H  |  H  |  L  |  L  |  H  |  L  |   0x4F0000   |  0x4F0001   |  0x4F4001
+ L  |  L  |  L  |  L  |  H  |  L  |  H  |  L  |   0x500000   |  0x500001   |  0x504001
+ H  |  L  |  L  |  L  |  H  |  L  |  H  |  L  |   0x510000   |  0x510001   |  0x514001
+ L  |  H  |  L  |  L  |  H  |  L  |  H  |  L  |   0x520000   |  0x520001   |  0x524001
+ H  |  H  |  L  |  L  |  H  |  L  |  H  |  L  |   0x530000   |  0x530001   |  0x534001
+ L  |  L  |  H  |  L  |  H  |  L  |  H  |  L  |   0x540000   |  0x540001   |  0x544001
+ H  |  L  |  H  |  L  |  H  |  L  |  H  |  L  |   0x550000   |  0x550001   |  0x554001
+ L  |  H  |  H  |  L  |  H  |  L  |  H  |  L  |   0x560000   |  0x560001   |  0x564001
+ H  |  H  |  H  |  L  |  H  |  L  |  H  |  L  |   0x570000   |  0x570001   |  0x574001
+ L  |  L  |  L  |  H  |  H  |  L  |  H  |  L  |   0x580000   |  0x580001   |  0x584001
+ H  |  L  |  L  |  H  |  H  |  L  |  H  |  L  |   0x590000   |  0x590001   |  0x594001
+ L  |  H  |  L  |  H  |  H  |  L  |  H  |  L  |   0x5A0000   |  0x5A0001   |  0x5A4001
+ H  |  H  |  L  |  H  |  H  |  L  |  H  |  L  |   0x5B0000   |  0x5B0001   |  0x5B4001
+ L  |  L  |  H  |  H  |  H  |  L  |  H  |  L  |   0x5C0000   |  0x5C0001   |  0x5C4001
+ H  |  L  |  H  |  H  |  H  |  L  |  H  |  L  |   0x5D0000   |  0x5D0001   |  0x5D4001
+ L  |  H  |  H  |  H  |  H  |  L  |  H  |  L  |   0x5E0000   |  0x5E0001   |  0x5E4001
+ H  |  H  |  H  |  H  |  H  |  L  |  H  |  L  |   0x5F0000   |  0x5F0001   |  0x5F4001
+ L  |  L  |  L  |  L  |  L  |  H  |  H  |  L  |   0x600000   |  0x600001   |  0x604001
+ H  |  L  |  L  |  L  |  L  |  H  |  H  |  L  |   0x610000   |  0x610001   |  0x614001
+ L  |  H  |  L  |  L  |  L  |  H  |  H  |  L  |   0x620000   |  0x620001   |  0x624001
+ H  |  H  |  L  |  L  |  L  |  H  |  H  |  L  |   0x630000   |  0x630001   |  0x634001
+ L  |  L  |  H  |  L  |  L  |  H  |  H  |  L  |   0x640000   |  0x640001   |  0x644001
+ H  |  L  |  H  |  L  |  L  |  H  |  H  |  L  |   0x650000   |  0x650001   |  0x654001
+ L  |  H  |  H  |  L  |  L  |  H  |  H  |  L  |   0x660000   |  0x660001   |  0x664001
+ H  |  H  |  H  |  L  |  L  |  H  |  H  |  L  |   0x670000   |  0x670001   |  0x674001
+ L  |  L  |  L  |  H  |  L  |  H  |  H  |  L  |   0x680000   |  0x680001   |  0x684001
+ H  |  L  |  L  |  H  |  L  |  H  |  H  |  L  |   0x690000   |  0x690001   |  0x694001
+ L  |  H  |  L  |  H  |  L  |  H  |  H  |  L  |   0x6A0000   |  0x6A0001   |  0x6A4001
+ H  |  H  |  L  |  H  |  L  |  H  |  H  |  L  |   0x6B0000   |  0x6B0001   |  0x6B4001
+ L  |  L  |  H  |  H  |  L  |  H  |  H  |  L  |   0x6C0000   |  0x6C0001   |  0x6C4001
+ H  |  L  |  H  |  H  |  L  |  H  |  H  |  L  |   0x6D0000   |  0x6D0001   |  0x6D4001
+ L  |  H  |  H  |  H  |  L  |  H  |  H  |  L  |   0x6E0000   |  0x6E0001   |  0x6E4001
+ H  |  H  |  H  |  H  |  L  |  H  |  H  |  L  |   0x6F0000   |  0x6F0001   |  0x6F4001
+ L  |  L  |  L  |  L  |  H  |  H  |  H  |  L  |   0x700000   |  0x700001   |  0x704001
+ H  |  L  |  L  |  L  |  H  |  H  |  H  |  L  |   0x710000   |  0x710001   |  0x714001
+ L  |  H  |  L  |  L  |  H  |  H  |  H  |  L  |   0x720000   |  0x720001   |  0x724001
+ H  |  H  |  L  |  L  |  H  |  H  |  H  |  L  |   0x730000   |  0x730001   |  0x734001
+ L  |  L  |  H  |  L  |  H  |  H  |  H  |  L  |   0x740000   |  0x740001   |  0x744001
+ H  |  L  |  H  |  L  |  H  |  H  |  H  |  L  |   0x750000   |  0x750001   |  0x754001
+ L  |  H  |  H  |  L  |  H  |  H  |  H  |  L  |   0x760000   |  0x760001   |  0x764001
+ H  |  H  |  H  |  L  |  H  |  H  |  H  |  L  |   0x770000   |  0x770001   |  0x774001
+ L  |  L  |  L  |  H  |  H  |  H  |  H  |  L  |   0x780000   |  0x780001   |  0x784001
+ H  |  L  |  L  |  H  |  H  |  H  |  H  |  L  |   0x790000   |  0x790001   |  0x794001
+ L  |  H  |  L  |  H  |  H  |  H  |  H  |  L  |   0x7A0000   |  0x7A0001   |  0x7A4001
+ H  |  H  |  L  |  H  |  H  |  H  |  H  |  L  |   0x7B0000   |  0x7B0001   |  0x7B4001
+ L  |  L  |  H  |  H  |  H  |  H  |  H  |  L  |   0x7C0000   |  0x7C0001   |  0x7C4001
+ H  |  L  |  H  |  H  |  H  |  H  |  H  |  L  |   0x7D0000   |  0x7D0001   |  0x7D4001
+ L  |  H  |  H  |  H  |  H  |  H  |  H  |  L  |   0x7E0000   |  0x7E0001   |  0x7E4001
+ H  |  H  |  H  |  H  |  H  |  H  |  H  |  L  |   0x7F0000   |  0x7F0001   |  0x7F4001
+ L  |  L  |  L  |  L  |  L  |  L  |  L  |  H  |   0x800000   |  0x800001   |  0x804001
+ H  |  L  |  L  |  L  |  L  |  L  |  L  |  H  |   0x810000   |  0x810001   |  0x814001
+ L  |  H  |  L  |  L  |  L  |  L  |  L  |  H  |   0x820000   |  0x820001   |  0x824001
+ H  |  H  |  L  |  L  |  L  |  L  |  L  |  H  |   0x830000   |  0x830001   |  0x834001
+ L  |  L  |  H  |  L  |  L  |  L  |  L  |  H  |   0x840000   |  0x840001   |  0x844001
+ H  |  L  |  H  |  L  |  L  |  L  |  L  |  H  |   0x850000   |  0x850001   |  0x854001
+ L  |  H  |  H  |  L  |  L  |  L  |  L  |  H  |   0x860000   |  0x860001   |  0x864001
+ H  |  H  |  H  |  L  |  L  |  L  |  L  |  H  |   0x870000   |  0x870001   |  0x874001
+ L  |  L  |  L  |  H  |  L  |  L  |  L  |  H  |   0x880000   |  0x880001   |  0x884001
+ H  |  L  |  L  |  H  |  L  |  L  |  L  |  H  |   0x890000   |  0x890001   |  0x894001
+ L  |  H  |  L  |  H  |  L  |  L  |  L  |  H  |   0x8A0000   |  0x8A0001   |  0x8A4001
+ H  |  H  |  L  |  H  |  L  |  L  |  L  |  H  |   0x8B0000   |  0x8B0001   |  0x8B4001
+ L  |  L  |  H  |  H  |  L  |  L  |  L  |  H  |   0x8C0000   |  0x8C0001   |  0x8C4001
+ H  |  L  |  H  |  H  |  L  |  L  |  L  |  H  |   0x8D0000   |  0x8D0001   |  0x8D4001
+ L  |  H  |  H  |  H  |  L  |  L  |  L  |  H  |   0x8E0000   |  0x8E0001   |  0x8E4001
+ H  |  H  |  H  |  H  |  L  |  L  |  L  |  H  |   0x8F0000   |  0x8F0001   |  0x8F4001
+ L  |  L  |  L  |  L  |  H  |  L  |  L  |  H  |   0x900000   |  0x900001   |  0x904001
+ H  |  L  |  L  |  L  |  H  |  L  |  L  |  H  |   0x910000   |  0x910001   |  0x914001
+ L  |  H  |  L  |  L  |  H  |  L  |  L  |  H  |   0x920000   |  0x920001   |  0x924001
+ H  |  H  |  L  |  L  |  H  |  L  |  L  |  H  |   0x930000   |  0x930001   |  0x934001
+ L  |  L  |  H  |  L  |  H  |  L  |  L  |  H  |   0x940000   |  0x940001   |  0x944001
+ H  |  L  |  H  |  L  |  H  |  L  |  L  |  H  |   0x950000   |  0x950001   |  0x954001
+ L  |  H  |  H  |  L  |  H  |  L  |  L  |  H  |   0x960000   |  0x960001   |  0x964001
+ H  |  H  |  H  |  L  |  H  |  L  |  L  |  H  |   0x970000   |  0x970001   |  0x974001
+ L  |  L  |  L  |  H  |  H  |  L  |  L  |  H  |   0x980000   |  0x980001   |  0x984001
+ H  |  L  |  L  |  H  |  H  |  L  |  L  |  H  |   0x990000   |  0x990001   |  0x994001
+ L  |  H  |  L  |  H  |  H  |  L  |  L  |  H  |   0x9A0000   |  0x9A0001   |  0x9A4001
+ H  |  H  |  L  |  H  |  H  |  L  |  L  |  H  |   0x9B0000   |  0x9B0001   |  0x9B4001
+ L  |  L  |  H  |  H  |  H  |  L  |  L  |  H  |   0x9C0000   |  0x9C0001   |  0x9C4001
+ H  |  L  |  H  |  H  |  H  |  L  |  L  |  H  |   0x9D0000   |  0x9D0001   |  0x9D4001
+ L  |  H  |  H  |  H  |  H  |  L  |  L  |  H  |   0x9E0000   |  0x9E0001   |  0x9E4001
+ H  |  H  |  H  |  H  |  H  |  L  |  L  |  H  |   0x9F0000   |  0x9F0001   |  0x9F4001
+ L  |  L  |  L  |  L  |  L  |  H  |  L  |  H  |   0xA00000   |  0xA00001   |  0xA04001
+ H  |  L  |  L  |  L  |  L  |  H  |  L  |  H  |   0xA10000   |  0xA10001   |  0xA14001
+ L  |  H  |  L  |  L  |  L  |  H  |  L  |  H  |   0xA20000   |  0xA20001   |  0xA24001
+ H  |  H  |  L  |  L  |  L  |  H  |  L  |  H  |   0xA30000   |  0xA30001   |  0xA34001
+ L  |  L  |  H  |  L  |  L  |  H  |  L  |  H  |   0xA40000   |  0xA40001   |  0xA44001
+ H  |  L  |  H  |  L  |  L  |  H  |  L  |  H  |   0xA50000   |  0xA50001   |  0xA54001
+ L  |  H  |  H  |  L  |  L  |  H  |  L  |  H  |   0xA60000   |  0xA60001   |  0xA64001
+ H  |  H  |  H  |  L  |  L  |  H  |  L  |  H  |   0xA70000   |  0xA70001   |  0xA74001
+ L  |  L  |  L  |  H  |  L  |  H  |  L  |  H  |   0xA80000   |  0xA80001   |  0xA84001
+ H  |  L  |  L  |  H  |  L  |  H  |  L  |  H  |   0xA90000   |  0xA90001   |  0xA94001
+ L  |  H  |  L  |  H  |  L  |  H  |  L  |  H  |   0xAA0000   |  0xAA0001   |  0xAA4001
+ H  |  H  |  L  |  H  |  L  |  H  |  L  |  H  |   0xAB0000   |  0xAB0001   |  0xAB4001
+ L  |  L  |  H  |  H  |  L  |  H  |  L  |  H  |   0xAC0000   |  0xAC0001   |  0xAC4001
+ H  |  L  |  H  |  H  |  L  |  H  |  L  |  H  |   0xAD0000   |  0xAD0001   |  0xAD4001
+ L  |  H  |  H  |  H  |  L  |  H  |  L  |  H  |   0xAE0000   |  0xAE0001   |  0xAE4001
+ H  |  H  |  H  |  H  |  L  |  H  |  L  |  H  |   0xAF0000   |  0xAF0001   |  0xAF4001
+ L  |  L  |  L  |  L  |  H  |  H  |  L  |  H  |   0xB00000   |  0xB00001   |  0xB04001
+ H  |  L  |  L  |  L  |  H  |  H  |  L  |  H  |   0xB10000   |  0xB10001   |  0xB14001
+ L  |  H  |  L  |  L  |  H  |  H  |  L  |  H  |   0xB20000   |  0xB20001   |  0xB24001
+ H  |  H  |  L  |  L  |  H  |  H  |  L  |  H  |   0xB30000   |  0xB30001   |  0xB34001
+ L  |  L  |  H  |  L  |  H  |  H  |  L  |  H  |   0xB40000   |  0xB40001   |  0xB44001
+ H  |  L  |  H  |  L  |  H  |  H  |  L  |  H  |   0xB50000   |  0xB50001   |  0xB54001
+ L  |  H  |  H  |  L  |  H  |  H  |  L  |  H  |   0xB60000   |  0xB60001   |  0xB64001
+ H  |  H  |  H  |  L  |  H  |  H  |  L  |  H  |   0xB70000   |  0xB70001   |  0xB74001
+ L  |  L  |  L  |  H  |  H  |  H  |  L  |  H  |   0xB80000   |  0xB80001   |  0xB84001
+ H  |  L  |  L  |  H  |  H  |  H  |  L  |  H  |   0xB90000   |  0xB90001   |  0xB94001
+ L  |  H  |  L  |  H  |  H  |  H  |  L  |  H  |   0xBA0000   |  0xBA0001   |  0xBA4001
+ H  |  H  |  L  |  H  |  H  |  H  |  L  |  H  |   0xBB0000   |  0xBB0001   |  0xBB4001
+ L  |  L  |  H  |  H  |  H  |  H  |  L  |  H  |   0xBC0000   |  0xBC0001   |  0xBC4001
+ H  |  L  |  H  |  H  |  H  |  H  |  L  |  H  |   0xBD0000   |  0xBD0001   |  0xBD4001
+ L  |  H  |  H  |  H  |  H  |  H  |  L  |  H  |   0xBE0000   |  0xBE0001   |  0xBE4001
+ H  |  H  |  H  |  H  |  H  |  H  |  L  |  H  |   0xBF0000   |  0xBF0001   |  0xBF4001
+ L  |  L  |  L  |  L  |  L  |  L  |  H  |  H  |   0xC00000   |  0xC00001   |  0xC04001
+ H  |  L  |  L  |  L  |  L  |  L  |  H  |  H  |   0xC10000   |  0xC10001   |  0xC14001
+ L  |  H  |  L  |  L  |  L  |  L  |  H  |  H  |   0xC20000   |  0xC20001   |  0xC24001
+ H  |  H  |  L  |  L  |  L  |  L  |  H  |  H  |   0xC30000   |  0xC30001   |  0xC34001
+ L  |  L  |  H  |  L  |  L  |  L  |  H  |  H  |   0xC40000   |  0xC40001   |  0xC44001
+ H  |  L  |  H  |  L  |  L  |  L  |  H  |  H  |   0xC50000   |  0xC50001   |  0xC54001
+ L  |  H  |  H  |  L  |  L  |  L  |  H  |  H  |   0xC60000   |  0xC60001   |  0xC64001
+ H  |  H  |  H  |  L  |  L  |  L  |  H  |  H  |   0xC70000   |  0xC70001   |  0xC74001
+ L  |  L  |  L  |  H  |  L  |  L  |  H  |  H  |   0xC80000   |  0xC80001   |  0xC84001
+ H  |  L  |  L  |  H  |  L  |  L  |  H  |  H  |   0xC90000   |  0xC90001   |  0xC94001
+ L  |  H  |  L  |  H  |  L  |  L  |  H  |  H  |   0xCA0000   |  0xCA0001   |  0xCA4001
+ H  |  H  |  L  |  H  |  L  |  L  |  H  |  H  |   0xCB0000   |  0xCB0001   |  0xCB4001
+ L  |  L  |  H  |  H  |  L  |  L  |  H  |  H  |   0xCC0000   |  0xCC0001   |  0xCC4001
+ H  |  L  |  H  |  H  |  L  |  L  |  H  |  H  |   0xCD0000   |  0xCD0001   |  0xCD4001
+ L  |  H  |  H  |  H  |  L  |  L  |  H  |  H  |   0xCE0000   |  0xCE0001   |  0xCE4001
+ H  |  H  |  H  |  H  |  L  |  L  |  H  |  H  |   0xCF0000   |  0xCF0001   |  0xCF4001
+ L  |  L  |  L  |  L  |  H  |  L  |  H  |  H  |   0xD00000   |  0xD00001   |  0xD04001
+ H  |  L  |  L  |  L  |  H  |  L  |  H  |  H  |   0xD10000   |  0xD10001   |  0xD14001
+ L  |  H  |  L  |  L  |  H  |  L  |  H  |  H  |   0xD20000   |  0xD20001   |  0xD24001
+ H  |  H  |  L  |  L  |  H  |  L  |  H  |  H  |   0xD30000   |  0xD30001   |  0xD34001
+ L  |  L  |  H  |  L  |  H  |  L  |  H  |  H  |   0xD40000   |  0xD40001   |  0xD44001
+ H  |  L  |  H  |  L  |  H  |  L  |  H  |  H  |   0xD50000   |  0xD50001   |  0xD54001
+ L  |  H  |  H  |  L  |  H  |  L  |  H  |  H  |   0xD60000   |  0xD60001   |  0xD64001
+ H  |  H  |  H  |  L  |  H  |  L  |  H  |  H  |   0xD70000   |  0xD70001   |  0xD74001
+ L  |  L  |  L  |  H  |  H  |  L  |  H  |  H  |   0xD80000   |  0xD80001*  |  0xD84001
+ H  |  L  |  L  |  H  |  H  |  L  |  H  |  H  |   0xD90000   |  0xD90001   |  0xD94001
+ L  |  H  |  L  |  H  |  H  |  L  |  H  |  H  |   0xDA0000   |  0xDA0001   |  0xDA4001
+ H  |  H  |  L  |  H  |  H  |  L  |  H  |  H  |   0xDB0000   |  0xDB0001   |  0xDB4001
+ L  |  L  |  H  |  H  |  H  |  L  |  H  |  H  |   0xDC0000   |  0xDC0001   |  0xDC4001
+ H  |  L  |  H  |  H  |  H  |  L  |  H  |  H  |   0xDD0000   |  0xDD0001   |  0xDD4001
+ L  |  H  |  H  |  H  |  H  |  L  |  H  |  H  |   0xDE0000   |  0xDE0001   |  0xDE4001
+ H  |  H  |  H  |  H  |  H  |  L  |  H  |  H  |   0xDF0000   |  0xDF0001   |  0xDF4001
+ L  |  L  |  L  |  L  |  L  |  H  |  H  |  H  |   0xE00000   |  0xE00001   |  0xE04001
+ H  |  L  |  L  |  L  |  L  |  H  |  H  |  H  |   0xE10000   |  0xE10001   |  0xE14001
+ L  |  H  |  L  |  L  |  L  |  H  |  H  |  H  |   0xE20000   |  0xE20001   |  0xE24001
+ H  |  H  |  L  |  L  |  L  |  H  |  H  |  H  |   0xE30000   |  0xE30001   |  0xE34001
+ L  |  L  |  H  |  L  |  L  |  H  |  H  |  H  |   0xE40000   |  0xE40001   |  0xE44001
+ H  |  L  |  H  |  L  |  L  |  H  |  H  |  H  |   0xE50000   |  0xE50001   |  0xE54001
+ L  |  H  |  H  |  L  |  L  |  H  |  H  |  H  |   0xE60000   |  0xE60001   |  0xE64001
+ H  |  H  |  H  |  L  |  L  |  H  |  H  |  H  |   0xE70000   |  0xE70001   |  0xE74001
+ L  |  L  |  L  |  H  |  L  |  H  |  H  |  H  |   0xE80000   |  0xE80001   |  0xE84001
+ H  |  L  |  L  |  H  |  L  |  H  |  H  |  H  |   0xE90000   |  0xE90001   |  0xE94001
+ L  |  H  |  L  |  H  |  L  |  H  |  H  |  H  |   0xEA0000   |  0xEA0001   |  0xEA4001
+ H  |  H  |  L  |  H  |  L  |  H  |  H  |  H  |   0xEB0000   |  0xEB0001   |  0xEB4001
+ L  |  L  |  H  |  H  |  L  |  H  |  H  |  H  |   0xEC0000   |  0xEC0001   |  0xEC4001
+ H  |  L  |  H  |  H  |  L  |  H  |  H  |  H  |   0xED0000   |  0xED0001   |  0xED4001
+ L  |  H  |  H  |  H  |  L  |  H  |  H  |  H  |   0xEE0000** |  0xEE0001   |  0xEE4001
+ H  |  H  |  H  |  H  |  L  |  H  |  H  |  H  |   0xEF0000   |  0xEF0001   |  0xEF4001
+ L  |  L  |  L  |  L  |  H  |  H  |  H  |  H  |   0xF00000   |  0xF00001   |  0xF04001
+ H  |  L  |  L  |  L  |  H  |  H  |  H  |  H  |   0xF10000   |  0xF10001   |  0xF14001
+ L  |  H  |  L  |  L  |  H  |  H  |  H  |  H  |   0xF20000   |  0xF20001   |  0xF24001
+ H  |  H  |  L  |  L  |  H  |  H  |  H  |  H  |   0xF30000   |  0xF30001   |  0xF34001
+ L  |  L  |  H  |  L  |  H  |  H  |  H  |  H  |   0xF40000   |  0xF40001   |  0xF44001
+ H  |  L  |  H  |  L  |  H  |  H  |  H  |  H  |   0xF50000   |  0xF50001   |  0xF54001
+ L  |  H  |  H  |  L  |  H  |  H  |  H  |  H  |   0xF60000   |  0xF60001   |  0xF64001
+ H  |  H  |  H  |  L  |  H  |  H  |  H  |  H  |   0xF70000   |  0xF70001   |  0xF74001
+ L  |  L  |  L  |  H  |  H  |  H  |  H  |  H  |   0xF80000   |  0xF80001   |  0xF84001
+ H  |  L  |  L  |  H  |  H  |  H  |  H  |  H  |   0xF90000   |  0xF90001   |  0xF94001
+ L  |  H  |  L  |  H  |  H  |  H  |  H  |  H  |   0xFA0000   |  0xFA0001   |  0xFA4001
+ H  |  H  |  L  |  H  |  H  |  H  |  H  |  H  |   0xFB0000   |  0xFB0001   |  0xFB4001
+ L  |  L  |  H  |  H  |  H  |  H  |  H  |  H  |   0xFC0000   |  0xFC0001   |  0xFC4001
+ H  |  L  |  H  |  H  |  H  |  H  |  H  |  H  |   0xFD0000   |  0xFD0001   |  0xFD4001
+ L  |  H  |  H  |  H  |  H  |  H  |  H  |  H  |   0xFE0000   |  0xFE0001   |  0xFE4001
+ H  |  H  |  H  |  H  |  H  |  H  |  H  |  H  |   0xFF0000   |  0xFF0001   |  0xFF4001
+
+* Address of the A1200 clock port
+** Default base address of Zorrology
